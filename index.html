@@ -1,0 +1,417 @@
+<!doctype html>
+
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <style>.contenthidden{display:none !important; }</style>
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,500i,700,900&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" />    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Arjun Singh: Developer</title>
+</head>
+
+<body>
+    <audio id="sound-src" class="audio_on_click" preload="auto">
+        <source src="media/click.mp3" type="audio/mpeg">
+    </audio>
+    <section class="main_layout">
+        <div class="main_layout_background"
+             style="background-color: #0a0000">
+        </div>
+
+        <div class="main_layout__inner">
+            <div class="container height-100">
+                <div class="row height-100 overflow-hidden">
+                    <div class="col-lg-6 p-0 main_layout__inner-left">
+                        <div class="main_layout__head">
+                            <div class="nav-menu">
+                                <div class="nav-menu__sidebar-btn">
+                                    <i class="icon-rocket"></i>
+                                </div>
+                                <ul id="navmenu" class="nav-menu-list">
+                                    <li class="nav-menu-list_item"><i data-toggle="tooltip" title="AboutMe" data-placement="left" data-page="aboutme_page" class="selected_item icon-user"></i></li>   
+                                    <li class="nav-menu-list_item"><i data-toggle="tooltip" title="Resume"  data-placement="left" data-page="resume_page" class="icon-eyeglass"></i></li>
+                                    <li class="nav-menu-list_item"><i data-toggle="tooltip" title="Projects" data-placement="left" data-page="project_page" class="icon-note"></i></li>
+                                    <li class="nav-menu-list_item"><i data-toggle="tooltip" title="Contact" data-placement="left" data-page="contact_page" class="icon-phone"></i></li>
+                                </ul>
+
+                                <div class="nav-menu__download">
+                                    <a data-toggle="tooltip" title="Download Resume" data-placement="left" class="nav-menu__download-btn" href="https://arjunstore.s3.ap-south-1.amazonaws.com/localcdn/resume_arjun.doc" download>
+                                        <i class="icon-cloud-download"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="me">
+                                <div class="me_displayimg">
+                                </div>
+                                <div class="me_info">
+                                    <h2 class="me_name">Arjun Singh</h2>
+                                    <div class="me_position">
+                                        <span>Developer</span>
+                                    </div>
+                                    <div class="me_socials">
+                                        <ul class="me_socials-list">
+                                            <li>
+                                                <a href="https://www.linkedin.com/in/arjunsingh11/">
+                                                    <i class="icon-social-linkedin"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://github.com/awesome-arjun11">
+                                                    <i class="icon-social-github"></i>
+                                                </a>
+                                            </li>
+                                
+                                        </ul>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 p-0 main_layout__inner-right">
+
+                        <!-- ABOUT ME PAGE -->
+                        <div id="aboutme_page" class="main_layout__page">
+                            <div class="main_layout__page-wrap">
+                                <header class="entry-header">
+                                    <h1 class="entry-title">about me</h1>
+                                </header>
+                                <div class="page_section aboutme">
+                                    <div class="page_section__aboutme-description">
+                                        Aspiring developer with a knack for solving problems, can-do attitude, love for automation and gaming and interest in Machine Learning and Data Science. I am final year postgrad pursuing a master's degree in Computer Science from Jamia Millia Islamia University.
+                                        <br><br>
+                                        I am a part-time freelancer and actively looking for Internships.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- RESUME PAGE -->
+                        <div id="resume_page" class="main_layout__page contenthidden">
+                            <div class="main_layout__page-wrap">
+
+                                <header class="entry-header">
+                                    <h1 class="entry-title">resume</h1>
+                                </header>
+                                <div id="skills" class="page_section">
+                                    <div class="page_section__title-wrap">
+                                        <i class="page_section__title-icon icon-speedometer"></i>
+                                        <h3 class="page_section__title">Skills</h3>
+                                    </div>
+
+                                    <div class="page_section__skills-list">
+                                        <div class="page_section__title-wrap subtitle">
+                                            <i class="page_section__title-icon icon-screen-desktop subtitle"></i>
+                                            <h5 class="page_section__title">Web Development</h5>
+                                        </div>
+                                        <div class="skills_list-item" data-value="95">
+                                            <span class="skills_item-name">
+                                                HTML / CSS / JS
+                                            </span>
+                                            <div class="skills_item-value">
+                                                <span class="counter" data-from="0" data-speed="1500" data-to="95">0</span>%
+                                            </div>
+                                            <div class="skills_item-line">
+                                                <div class="active-line"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skills_list-item" data-value="90">
+                                            <span class="skills_item-name">
+                                                Flask / Django / PHP
+                                            </span>
+                                            <div class="skills_item-value">
+                                                <span class="counter" data-from="0" data-speed="1500" data-to="90">0</span>%
+                                            </div>
+                                            <div class="skills_item-line">
+                                                <div class="active-line"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skills_list-item" data-value="80">
+                                            <span class="skills_item-name">
+                                                NodeJS / ElectronJS
+                                            </span>
+                                            <div class="skills_item-value">
+                                                <span class="counter" data-from="0" data-speed="1500" data-to="80">0</span>%
+                                            </div>
+                                            <div class="skills_item-line">
+                                                <div class="active-line"></div>
+                                            </div>
+                                        </div>
+                                        <div class="page_section__title-wrap subtitle">
+                                            <i class="page_section__title-icon icon-docs subtitle"></i>
+                                            <h5 class="page_section__title">Programming</h5>
+                                        </div>
+                                        <div class="skills_list-item" data-value="97">
+                                            <span class="skills_item-name">
+                                                Python 
+                                            </span>
+                                            <div class="skills_item-value">
+                                                <span class="counter" data-from="0" data-speed="1500" data-to="97">0</span>%
+                                            </div>
+                                            <div class="skills_item-line">
+                                                <div class="active-line"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skills_list-item" data-value="85">
+                                            <span class="skills_item-name">
+                                                C/CPP
+                                            </span>
+                                            <div class="skills_item-value">
+                                                <span class="counter" data-from="0" data-speed="1500" data-to="85">0</span>%
+                                            </div>
+                                            <div class="skills_item-line">
+                                                <div class="active-line"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skills_list-item" data-value="78">
+                                            <span class="skills_item-name">
+                                                Java
+                                            </span>
+                                            <div class="skills_item-value">
+                                                <span class="counter" data-from="0" data-speed="1500" data-to="78">0</span>%
+                                            </div>
+                                            <div class="skills_item-line">
+                                                <div class="active-line"></div>
+                                            </div>
+                                        </div>
+                                        <div class="page_section__title-wrap subtitle">
+                                            <i class="page_section__title-icon icon-list subtitle"></i>
+                                            <h5 class="page_section__title">Database</h5>
+                                        </div>
+                                        <div class="skills_list-item" data-value="90">
+                                            <span class="skills_item-name">
+                                                Mysql / Postgress / Oracle
+                                            </span>
+                                            <div class="skills_item-value">
+                                                <span class="counter" data-from="0" data-speed="1500" data-to="90">0</span>%
+                                            </div>
+                                            <div class="skills_item-line">
+                                                <div class="active-line"></div>
+                                            </div>
+                                        </div>  
+                                        <div class="page_section__title-wrap subtitle">
+                                            <i class="page_section__title-icon icon-layers subtitle"></i>
+                                            <h5 class="page_section__title">Oprating Systems</h5>
+                                        </div>         
+                                        <div class="skills_list-item" data-value="95">
+                                            <span class="skills_item-name">
+                                                Linux
+                                            </span>
+                                            <div class="skills_item-value">
+                                                <span class="counter" data-from="0" data-speed="1500" data-to="95">0</span>%
+                                            </div>
+                                            <div class="skills_item-line">
+                                                <div class="active-line"></div>
+                                            </div>
+                                        </div> 
+                                        <div class="skills_list-item" data-value="90">
+                                            <span class="skills_item-name">
+                                                Windows
+                                            </span>
+                                            <div class="skills_item-value">
+                                                <span class="counter" data-from="0" data-speed="1500" data-to="90">0</span>%
+                                            </div>
+                                            <div class="skills_item-line">
+                                                <div class="active-line"></div>
+                                            </div>
+                                        </div>  
+                                        <div class="page_section__title-wrap subtitle">
+                                            <i class="page_section__title-icon icon-speech subtitle"></i>
+                                            <h5 class="page_section__title">Language</h5>
+                                        </div>                   
+                                        <div class="skills_list-item" data-value="90">
+                                            <span class="skills_item-name">
+                                                Hindi (native)
+                                            </span>
+                                            <div class="skills_item-value">
+                                                <span class="counter" data-from="0" data-speed="1500" data-to="90">0</span>%
+                                            </div>
+                                            <div class="skills_item-line">
+                                                <div class="active-line"></div>
+                                            </div>
+                                        </div>  
+                                        <div class="skills_list-item" data-value="90">
+                                            <span class="skills_item-name">
+                                                English (fluent)
+                                            </span>
+                                            <div class="skills_item-value">
+                                                <span class="counter" data-from="0" data-speed="1500" data-to="90">0</span>%
+                                            </div>
+                                            <div class="skills_item-line">
+                                                <div class="active-line"></div>
+                                            </div>
+                                        </div>           
+                                    </div>
+                                </div>
+
+                                <div id="eduexp" class="page_section">
+                                    <div class="page_section__eduexp-list">
+                                        <div class="page_section__educ">
+                                            <div class="page_section__title-wrap">
+                                                <i class="page_section__title-icon icon-graduation"></i>
+                                                <h3 class="page_section__title">Education</h3>
+                                            </div>
+                                            <div class="eduexp_sub__list">
+                                                <!-- 10th -->
+                                                <div class="eduexp__list-item">
+                                                    <div class="eduexp_item-period">
+                                                        <span class="eduexp_item-period-start">2012</span>
+                                                        <span class="eduexp_item-period-end">2013</span>
+                                                    </div>
+                                                    <h5 class="eduexp_item-period-name">High School (10th)</h5>
+                                                    <div class="eduexp_item-period-region"><a href="https://www.themayoschool.com/">Mayo International School</a></div>
+                                                    <div class="eduexp_item-period-description">Completed high school in 2013 with 9.6 CGPA</div>
+                                                </div>
+                                                <!-- 12th -->
+                                                <div class="eduexp__list-item">
+                                                    <div class="eduexp_item-period">
+                                                        <span class="eduexp_item-period-start">2014</span>
+                                                        <span class="eduexp_item-period-end">2015</span>
+                                                    </div>
+                                                    <h5 class="eduexp_item-period-name">Intermediate (10+2)</h5>
+                                                    <div class="eduexp_item-period-region"><a href="https://www.themayoschool.com/">Mayo International School</a></div>
+                                                    <div class="eduexp_item-period-description">Completed 12th in 2015 with the score of 89.5%</div>
+                                                </div>
+                                                <!-- Graduation -->
+                                                <div class="eduexp__list-item">
+                                                    <div class="eduexp_item-period">
+                                                        <span class="eduexp_item-period-start">2015</span>
+                                                        <span class="eduexp_item-period-end">2018</span>
+                                                    </div>
+                                                    <h5 class="eduexp_item-period-name">Graduation (Computer Science)</h5>
+                                                    <div class="eduexp_item-period-region"><a href="https://vips.edu/">Vivekananda Institute of professional studies, GGSIPU</a></div>
+                                                    <div class="eduexp_item-period-description">Bachelor of computer applications(BCA) with 8.16 CGPA</div>
+                                                </div>
+                                                <!-- Post Graduation -->
+                                                <div class="eduexp__list-item">
+                                                    <div class="eduexp_item-period">
+                                                        <span class="eduexp_item-period-start">2018</span>
+                                                        <span class="eduexp_item-period-end">2021 (Expected)</span>
+                                                    </div>
+                                                    <h5 class="eduexp_item-period-name">Post Graduation (Computer Science)</h5>
+                                                    <div class="eduexp_item-period-region"><a href="https://www.jmi.ac.in/">Jamia Millia Islamia</a></div>
+                                                    <div class="eduexp_item-period-description">Pursuing Master of Computer Applications(MCA) from Jamia Millia Islamia University, expected to be graduated in year the year 2021</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="page_section__exp">
+                                            <div class="page_section__title-wrap">
+                                                <i class="page_section__title-icon icon-briefcase"></i>
+                                                <h3 class="page_section__title">Experience</h3>
+                                            </div>
+
+                                            <div class="eduexp_sub__list">
+                                                <div class="eduexp__list-item">
+                                                    <div class="eduexp_item-period">
+                                                        <span class="eduexp_item-period-start">2018</span>
+                                                        <span class="eduexp_item-period-end">2020</span>
+                                                    </div>
+                                                    <h5 class="eduexp_item-period-name">Freelancing</h5>
+                                                    <div class="eduexp_item-period-region"><a href="https://dynamicdevs.tech/">DynamicDevs</a></div>
+                                                    <div class="eduexp_item-period-description">Freelancing for more than a year during which worked on web development, automation, server management projects using technologies such as Flask/Django, php, nodejs</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PROJECT PAGE -->
+                        <div id="project_page" class="main_layout__page contenthidden">
+                            <div class="main_layout__page-wrap">
+                                <header class="entry-header">
+                                    <h1 class="entry-title">some projects</h1>
+                                </header>
+                                <div class="page_section projectlist">
+                                    <div class="projectlist-item">
+                                        <div class="github-repo-card" data-repo="splitune" data-user="awesome-arjun11"></div>
+                                    </div>
+                                    <div class="projectlist-item">
+                                        <div class="github-repo-card" data-repo="ledtheme" data-user="awesome-arjun11"></div>
+                                    </div>
+                                    <div class="projectlist-item">
+                                        <div class="github-repo-card" data-repo="TvSeriesReminder" data-user="awesome-arjun11"></div>
+                                    </div>
+                                    <div class="projectlist-item">
+                                        <div class="github-repo-card" data-repo="githubrepocards" data-user="awesome-arjun11"></div>
+                                    </div>
+                                </div>                                                               
+                            </div>
+                        </div>
+
+                        <!-- CONTACT PAGE -->
+                        <div id="contact_page" class="main_layout__page contenthidden">
+                            <div class="main_layout__page-wrap">
+                                <header class="entry-header">
+                                    <h1 class="entry-title">contact me</h1>
+                                </header>
+                                <div class="page_section contactme">
+                                    <div class="page_section__contactme-description">
+                                        Feel free to contact me 
+                                    </div>
+                                </div>
+                                <div class="page_section contactme-details">
+                                    <div class="contactme_details-item">
+                                        <div class="contactme_item-textwarp">
+                                            <i class="icon-location-pin"></i>
+                                            <span id="contact_addr" class="contactme_item-text"></span>
+                                        </div>
+                                        <div class="contactme_item-textwarp">
+                                            <i class="icon-envelope"></i>
+                                            <a href="#" id="contact_email_1" class="contactme_item-text"></a>
+                                        </div>
+                                    </div>
+                                    <div class="contactme_details-item">
+                                        <div class="contactme_item-textwarp">
+                                            <i class="icon-phone"></i>
+                                            <a href="#" id="contact_phone" class="contactme_item-text"></a>
+                                        </div>
+                                        <div class="contactme_item-textwarp">
+                                            <i class="icon-envelope"></i>
+                                            <a href="#" id="contact_email_2" class="contactme_item-text"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page_section sendmessage">
+                                    <div class="page_section__title-wrap">
+                                        <i class="page_section__title-icon icon-cursor"></i>
+                                        <h3 class="page_section__title">send message</h3>
+                                    </div>
+                                    <div class="contact_form">
+                                        <form id="contactform">
+                                            <input type="text" name="uname" value="" size="40" class="" aria-required="true" aria-invalid="false" placeholder="full name" required/>
+                                            <input type="email" name="uemail" value="" size="40" class="" aria-required="true" aria-invalid="false" placeholder="email" required/>
+                                            <textarea name="umsg" cols="40" rows="10" class="" aria-invalid="false" placeholder="message"></textarea>  
+                                            <div class="form_info contenthidden">Test messag</div>                               
+                                            <input id="contactformsubmit" type="submit" value="Send Message" />
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countto/1.2.0/jquery.countTo.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/awesome-arjun11/githubrepocards@latest/githubrepocards.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
