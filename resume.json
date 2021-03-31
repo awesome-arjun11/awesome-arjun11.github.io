@@ -52,6 +52,14 @@
                 "Supervised FrontEnd Integration",
                 "Scaled and deployed application on different cloud platforms"
             ]
+        },
+        {
+            "company": "Knoldus Inc",
+            "position": "Software Trainee",
+            "website": "https://www.knoldus.com/",
+            "startDate": "2021-01-04",
+            "endDate": "2021-03-30",
+            "summary": "Functional programming in Scala, DevOps practices",
         }
     ],
     "education": [{
