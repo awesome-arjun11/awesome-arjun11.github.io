@@ -1,49 +1,56 @@
 <!doctype html>
 
 <html lang="en-US">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <style>.contenthidden{display:none !important; }</style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" />    
+    <style>
+        .contenthidden {
+            display: none !important;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" />
     <link rel="stylesheet" href="css/resume.css" />
     <title>Resumes: Arjun Singh</title>
 </head>
+
 <body>
     <div class="content" id="resumejson">
         <embed class="content" src="https://registry.jsonresume.org/awesome-arjun11?theme=kwan" /></embed>
     </div>
     <div class="bottom-nav">
-            <div class="multi-button">
-                <button onclick="loadResume(-1)">
+        <div class="multi-button">
+            <button onclick="loadResume(-1)">
                     <span class="theicons">
                         <i class="icon-arrow-left"></i>
                     </span>
                     PRIVIOUS-THEME
                 </button>
-                <!-- Todo: create Add HTML -> PDF pipeline preferabely serverless,lambda, cf worker -->
-                <!--button>
+            <!-- Todo: create Add HTML -> PDF pipeline preferabely serverless,lambda, cf worker -->
+            <!--button>
                     <span class="theicons">
                         <i class="icon-cloud-download"></i>
                     </span>                    
                     Download
                 </button-->
-                <button onclick="loadResume(1)">
+            <button onclick="loadResume(1)">
                     NEXT-THEME
                     <span class="theicons">
                         <i class="icon-arrow-right"></i>
                     </span>
                 </button>
-              </div>
+        </div>
     </div>
     <script>
         const themes = ['kwan', 'spartan', 'stackoverflow', 'elegant', 'kendall', 'paper', 'flat', 'classy', 'short'];
         window.SELECTED_THEME_INDEX = 0;
         const getEmbedHTML = _ => `<embed src="https://registry.jsonresume.org/awesome-arjun11?theme=${themes[window.SELECTED_THEME_INDEX]}" /></embed>`;
         const loadResume = (offset) => {
-            window.SELECTED_THEME_INDEX = (window.SELECTED_THEME_INDEX + themes.length + offset)%themes.length;
+            window.SELECTED_THEME_INDEX = (window.SELECTED_THEME_INDEX + themes.length + offset) % themes.length;
             document.getElementById('resumejson').innerHTML = getEmbedHTML();
         }
     </script>
 </body>
+
 </html>

@@ -1,148 +1,154 @@
 {
-  "meta": {
-    "theme": "kendall"
-  },
-  "basics": {
-    "name": "Arjun Singh",
-    "label": "Programmer",
-    "picture": "https://awesome-arjun11.github.io/media/me.jpg",
-    "email": "awesome.arjun11@gmail.com",
-    "phone": "+91 7042993398",
-    "website": "https://awesome-arjun11.github.io/",
-    "summary": "Aspiring programmer with a knack for solving problems, can-do attitude and love for automation. Internship experience in backend development and microservice development.",
-    "location": {
-      "address": "B-22, mandawali",
-      "postalCode": "110092",
-      "city": "New Delhi",
-      "countryCode": "IN",
-      "region": "Delhi"
+    "meta": {
+        "theme": "kendall"
     },
-    "profiles": [
-    {
-        "network": "Website",
-        "username": "arjun singh",
-        "url": "https://awesome-arjun11.github.io/"
-    },{
-        "network": "github",
-        "username": "awesome-arjun11",
-        "url": "https://github.com/awesome-arjun11"
-    },
-    {
-      "network": "linkedin",
-      "username": "arjunsingh11",
-      "url": "https://www.linkedin.com/in/arjunsingh11/"
-    }]
-  },
-  "work": [{
-    "company": "YuMedic",
-    "position": "Backend Developer Intern",
-    "website": "http://www.yumedic.com/",
-    "startDate": "2020-06-05",
-    "endDate": "2020-07-05",
-    "summary": "created and integrated backend API’s using expressjs and mongodb"
-  },
-  {
-      "company":"Virlig",
-      "position": "Web Developer Intern",
-      "startDate": "2020-09-01",
-      "endDate":"2020-11-30",
-      "summary": "Solely developed LMS platform backend for the EdTech startup using Django framework",
-      "highlights": [
-        "Supervised FrontEnd Integration",
-        "Scaled and deployed application on different cloud platforms"
-      ]
-  }],
-  "education": [{
-    "institution": "Jamia Millia islamia",
-    "area": "Computer Science",
-    "studyType": "Master of Computer Applications",
-    "startDate": "2018-08-01",
-    "endDate": "2021-05-01",
-    "gpa": "8.2"
-  },
-  {
-    "institution": "Vivekananda Institute of Professional Studies",
-    "area": "Computer Science",
-    "studyType": "Bachelor of Computer Applications",
-    "startDate": "2015-08-01",
-    "endDate": "2018-05-01",
-    "gpa": "8.16"
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "",
-    "keywords": [
-      "HTML / CSS",
-      "Javascript",
-      "Django"
-    ]
-  },
-  {
-    "name": "Programming & Scripting",
-    "level": "",
-    "keywords": [
-      "CPP",
-      "Python",
-      "Java",
-      "JavaScript",
-      "NodeJS"
-    ]
-  },
-  {
-    "name": "Databases",
-    "level": "",
-    "keywords": [
-      "MySQL",
-      "PostgreSQL",
-      "Oracle",
-      "Amazon DynamoDB"
-    ]
-  },
-  {
-    "name": "Operating System",
-    "level": "",
-    "keywords": [
-      "Linux",
-      "Windows"
-    ]
-  },
-  {
-    "name": "VCS and Tools",
-    "level": "",
-    "keywords": [
-      "GIT"
-    ]
-  },
-  {
-    "name": "Infrastructure",
-    "level": "",
-    "keywords": [
-      "AWS",
-      "Docker"
-    ]
-  }],
-  "languages": [{
-    "language": "Hindi",
-    "fluency": "Native speaker"
-  },
-  {
-    "language": "English",
-    "fluency": "Fluent"
-  }],
-  "interests": [
-    {
-        "name": "Technology",
-        "keywords": [
-            "Machine learning",
-            "Automation",
-            "Computer Vision"
+    "basics": {
+        "name": "Arjun Singh",
+        "label": "Programmer",
+        "picture": "https://awesome-arjun11.github.io/media/me.jpg",
+        "image": "https://awesome-arjun11.github.io/media/me.jpg",
+        "email": "awesome.arjun11@gmail.com",
+        "phone": "+91 7042993398",
+        "website": "https://awesome-arjun11.github.io/",
+        "summary": "Aspiring programmer with a knack for solving problems, can-do attitude and love for automation. Internship experience in backend development and microservice development.",
+        "location": {
+            "address": "B-22, mandawali",
+            "postalCode": "110092",
+            "city": "New Delhi",
+            "countryCode": "IN",
+            "region": "Delhi"
+        },
+        "profiles": [{
+                "network": "Website",
+                "username": "arjun singh",
+                "url": "https://awesome-arjun11.github.io/"
+            }, {
+                "network": "github",
+                "username": "awesome-arjun11",
+                "url": "https://github.com/awesome-arjun11"
+            },
+            {
+                "network": "linkedin",
+                "username": "arjunsingh11",
+                "url": "https://www.linkedin.com/in/arjunsingh11/"
+            }
         ]
     },
-    {
-        "name": "Gaming",
-        "keywords": [
-        "COD 4",
-        "Game Modding (quake engine)"
-        ]
-    }]
+    "work": [{
+            "company": "YuMedic",
+            "position": "Backend Developer Intern",
+            "website": "http://www.yumedic.com/",
+            "startDate": "2020-06-05",
+            "endDate": "2020-07-05",
+            "summary": "created and integrated backend API’s using expressjs and mongodb"
+        },
+        {
+            "company": "Virlig",
+            "position": "Web Developer Intern",
+            "startDate": "2020-09-01",
+            "endDate": "2020-11-30",
+            "summary": "Solely developed LMS platform backend for the EdTech startup using Django framework",
+            "highlights": [
+                "Supervised FrontEnd Integration",
+                "Scaled and deployed application on different cloud platforms"
+            ]
+        }
+    ],
+    "education": [{
+            "institution": "Jamia Millia islamia",
+            "area": "Computer Science",
+            "studyType": "Master of Computer Applications",
+            "startDate": "2018-08-01",
+            "endDate": "2021-05-01",
+            "gpa": "8.2"
+        },
+        {
+            "institution": "Vivekananda Institute of Professional Studies",
+            "area": "Computer Science",
+            "studyType": "Bachelor of Computer Applications",
+            "startDate": "2015-08-01",
+            "endDate": "2018-05-01",
+            "gpa": "8.16"
+        }
+    ],
+    "skills": [{
+            "name": "Web Development",
+            "level": "",
+            "keywords": [
+                "HTML / CSS",
+                "Javascript",
+                "Django"
+            ]
+        },
+        {
+            "name": "Programming & Scripting",
+            "level": "",
+            "keywords": [
+                "CPP",
+                "Python",
+                "Scala",
+                "Java",
+                "JavaScript",
+                "NodeJS"
+            ]
+        },
+        {
+            "name": "Databases",
+            "level": "",
+            "keywords": [
+                "MySQL",
+                "PostgreSQL",
+                "Oracle",
+                "Amazon DynamoDB"
+            ]
+        },
+        {
+            "name": "Operating System",
+            "level": "",
+            "keywords": [
+                "Linux",
+                "Windows"
+            ]
+        },
+        {
+            "name": "VCS and Tools",
+            "level": "",
+            "keywords": [
+                "GIT"
+            ]
+        },
+        {
+            "name": "Infrastructure",
+            "level": "",
+            "keywords": [
+                "AWS",
+                "Docker"
+            ]
+        }
+    ],
+    "languages": [{
+            "language": "Hindi",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Fluent"
+        }
+    ],
+    "interests": [{
+            "name": "Technology",
+            "keywords": [
+                "Machine learning",
+                "Automation",
+                "Computer Vision"
+            ]
+        },
+        {
+            "name": "Gaming",
+            "keywords": [
+                "COD 4",
+                "Game Modding (quake engine)"
+            ]
+        }
+    ]
 }
