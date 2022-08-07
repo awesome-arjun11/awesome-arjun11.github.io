@@ -4,13 +4,13 @@
     },
     "basics": {
         "name": "Arjun Singh",
-        "label": "Programmer",
+        "label": "SDE",
         "picture": "https://awesome-arjun11.github.io/media/me.jpg",
         "image": "https://awesome-arjun11.github.io/media/me.jpg",
         "email": "awesome.arjun11@gmail.com",
         "phone": "+91 7042993398",
         "website": "https://awesome-arjun11.github.io/",
-        "summary": "Aspiring programmer with a knack for solving problems, can-do attitude and love for automation. Internship experience in backend development and microservice development.",
+        "summary": "Software Development Engineer with a knack for solving problems, a can-do attitude and a love for automation. I develop data validation pipelines for geospatial maps data using TDD with Functional Programming. Also, I like to explore different tech stacks and domains. Internship experience in backend development and DevOps Practices.",
         "location": {
             "address": "B-22, mandawali",
             "postalCode": "110092",
@@ -60,6 +60,13 @@
             "startDate": "2021-01-04",
             "endDate": "2021-03-30",
             "summary": "Functional programming in Scala, DevOps practices",
+        },
+        {
+            "company": "Unify Technologies",
+            "position": "Software Development Engineer",
+            "website": "https://in.linkedin.com/company/unifytech",
+            "startDate": "2021-05-17",
+            "summary": "Creating and Maintaining Data Validation Pipelines for geo-spatial map data.",
         }
     ],
     "education": [{
@@ -95,9 +102,8 @@
                 "CPP",
                 "Python",
                 "Scala",
+                "Spark",
                 "Java",
-                "JavaScript",
-                "NodeJS"
             ]
         },
         {
@@ -106,8 +112,6 @@
             "keywords": [
                 "MySQL",
                 "PostgreSQL",
-                "Oracle",
-                "Amazon DynamoDB"
             ]
         },
         {
@@ -115,7 +119,8 @@
             "level": "",
             "keywords": [
                 "Linux",
-                "Windows"
+                "Windows",
+                "macOS"
             ]
         },
         {
@@ -130,7 +135,8 @@
             "level": "",
             "keywords": [
                 "AWS",
-                "Docker"
+                "Docker",
+                "Jenkins"
             ]
         }
     ],
@@ -148,7 +154,8 @@
             "keywords": [
                 "Machine learning",
                 "Automation",
-                "Computer Vision"
+                "Computer Vision",
+                "Geospatial Maps data"
             ]
         },
         {
