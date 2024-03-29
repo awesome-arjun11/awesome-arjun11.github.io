@@ -10,7 +10,7 @@
         "email": "awesome.arjun11@gmail.com",
         "phone": "+91 7042993398",
         "website": "https://awesome-arjun11.github.io/",
-        "summary": "Software Development Engineer with a knack for solving problems, a can-do attitude and a love for automation. I develop data validation pipelines for geospatial maps data using TDD with Functional Programming. Also, I like to explore different tech stacks and domains. Internship experience in backend development and DevOps Practices.",
+        "summary": "Highly motivated Data Engineer with expertise in functional Scala, Spark, Python, and AWS. Proven ability to ensure data quality and accuracy through transformation, and validation pipeline development, Spearheaded platform modernization efforts on Apple Maps, migrating pipelines to AWS and developed an ML-based automation framework for improved efficiency and scalability.",
         "location": {
             "address": "B-22, mandawali",
             "postalCode": "110092",
@@ -59,14 +59,14 @@
             "website": "https://www.knoldus.com/",
             "startDate": "2021-01-04",
             "endDate": "2021-03-30",
-            "summary": "Functional programming in Scala, DevOps practices",
+            "summary": "Functional programming in Scala, DevOps practices"
         },
         {
             "company": "Unify Technologies",
             "position": "Software Development Engineer",
             "website": "https://in.linkedin.com/company/unifytech",
             "startDate": "2021-05-17",
-            "summary": "Creating and Maintaining Data Validation Pipelines for geo-spatial map data.",
+            "summary": "Responsible for building and maintaining many data validation and transformation pipelines, ensuring data quality and accuracy."
         }
     ],
     "education": [{
@@ -75,7 +75,7 @@
             "studyType": "Master of Computer Applications",
             "startDate": "2018-08-01",
             "endDate": "2021-05-01",
-            "gpa": "8.2"
+            "gpa": "8.6"
         },
         {
             "institution": "Vivekananda Institute of Professional Studies",
@@ -102,8 +102,8 @@
                 "CPP",
                 "Python",
                 "Scala",
-                "Spark",
-                "Java",
+                "Spark/PySpark",
+                "Java"
             ]
         },
         {
@@ -111,7 +111,7 @@
             "level": "",
             "keywords": [
                 "MySQL",
-                "PostgreSQL",
+                "PostgreSQL"
             ]
         },
         {
@@ -136,7 +136,9 @@
             "keywords": [
                 "AWS",
                 "Docker",
-                "Jenkins"
+                "Jenkins",
+                "Hadoop",
+                "Kafka"
             ]
         }
     ],
@@ -152,7 +154,7 @@
     "interests": [{
             "name": "Technology",
             "keywords": [
-                "Machine learning",
+                "Data Science / ML",
                 "Automation",
                 "Computer Vision",
                 "Geospatial Maps data"
